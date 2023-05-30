@@ -34,6 +34,16 @@ h1, h2, h3, h4, p {
     align-items: center;
 }
 
+.hori {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.gift1 {
+    margin-top: 0px;
+}
+
 #teddy {
     width: 150px;
     border-radius: 50%;
@@ -55,7 +65,7 @@ h1, h2, h3, h4, p {
     border-radius: 10px;
     border: 5px solid black;
     padding: 10px;
-    margin-top: 10px;
+    margin-top: 50px;
     margin-left: auto;
     margin-right: auto;
     background-image: url("download.jpeg");
@@ -75,6 +85,10 @@ h1, h2, h3, h4, p {
 #gift-pic3 {
     width: 400px;
     height: 400px;
+}
+
+#gift-pic1 {
+     margin-top: 0px;
 }
 
 #gift-pic3:hover {
